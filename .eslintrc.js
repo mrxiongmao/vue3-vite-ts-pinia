@@ -2,7 +2,7 @@
  * @Author: yuxiong.zhang
  * @Date: 2022-04-08 15:38:42
  * @LastEditors: yuxiong.zhang
- * @LastEditTime: 2022-04-14 17:18:39
+ * @LastEditTime: 2022-04-18 10:56:49
  */
 module.exports = {
   parser: 'vue-eslint-parser',

@@ -2,7 +2,7 @@
  * @Author: yuxiong.zhang
  * @Date: 2022-04-07 18:24:23
  * @LastEditors: yuxiong.zhang
- * @LastEditTime: 2022-04-14 17:36:47
+ * @LastEditTime: 2022-04-18 15:26:35
  */
 
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
@@ -22,6 +22,14 @@ const routes: Array<RouteRecordRaw> = [
       requireAuth: true,
     },
     component: () => import('@/views/pages/index.vue'),
+  },
+  {
+    path: '/ref-reactive',
+    name: 'RefReactive',
+    meta: {
+      title: 'compotions api',
+    },
+    component: () => import('@/views/pages/ref-reactive.vue'),
   },
 ]
 
