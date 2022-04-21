@@ -2,7 +2,7 @@
  * @Author: yuxiong.zhang
  * @Date: 2022-04-07 18:24:23
  * @LastEditors: yuxiong.zhang
- * @LastEditTime: 2022-04-18 15:26:35
+ * @LastEditTime: 2022-04-19 14:13:46
  */
 
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
@@ -30,6 +30,14 @@ const routes: Array<RouteRecordRaw> = [
       title: 'compotions api',
     },
     component: () => import('@/views/pages/ref-reactive.vue'),
+  },
+  {
+    path: '/use-pinia',
+    name: 'UsePinia',
+    meta: {
+      title: '使用pinia',
+    },
+    component: () => import('@/views/pages/use-pinia.vue'),
   },
 ]
 
