@@ -25,6 +25,7 @@
     "husky": "^7.0.4",
     "lint-staged": "^12.3.7",
     "pinia": "^2.0.13",
+    "pinia-plugin-persist": "^1.0.0",
     "prettier": "^2.6.2",
     "sass": "^1.50.0",
     "vue": "^3.2.16",

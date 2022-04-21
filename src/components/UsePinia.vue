@@ -2,7 +2,7 @@
  * @Author: yuxiong.zhang
  * @Date: 2022-04-14 17:26:02
  * @LastEditors: yuxiong.zhang
- * @LastEditTime: 2022-04-20 18:14:37
+ * @LastEditTime: 2022-04-21 10:09:20
 -->
 
 <template>
@@ -14,7 +14,7 @@
 import { useUserStore } from '@/store/user'
 
 const userStore = useUserStore()
-userStore.updateName('张三 -> 李四')
+userStore.updateName('李四')
 let info = {
   account: 'zzz',
   pwd: 111,
